@@ -1,0 +1,237 @@
+* {
+  font-family: "Open Sans", sans-serif
+}
+
+.main-container {
+  display: flex;
+  justify-content: center
+}
+
+.container__first_first-line-text,
+.container__third_main_text {
+  color: #ffffff
+}
+
+.container__first_main_upper_text-first,
+.container__first_main_upper_text-second {
+  color: #f9f9f9
+}
+
+.container {
+  flex-direction: column;
+  width: 1440px;
+  height: 2040px;
+  background: #ffffff
+}
+
+.container__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 36.52%;
+  background: #2f6b4f
+}
+
+.container__first_first-line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 84.02%;
+  height: 17.45%
+}
+
+.container__first_last-line-empty {
+  width: 84.02%;
+  height: 17.45%
+}
+
+.container__first_first-line-img {
+  width: 4.88%;
+  height: 37.69%
+}
+
+.container__first_first-line-text {
+  display: flex;
+  width: 20.66%;
+  height: 20.77%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: center;
+  justify-content: flex-start
+}
+
+.container__first_main {
+  width: 69.38%;
+  height: 41.07%
+}
+
+.container__first_main_upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 84.97%
+}
+
+.container__first_main_upper_text-first {
+  text-align: center;
+  width: 100%;
+  height: 66.92%;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87.16px
+}
+
+.container__first_main_upper_text-second {
+  width: 85.79%;
+  height: 20.77%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center
+}
+
+.container__second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 42.65%;
+  background: #f9f9f9
+}
+
+.container__second_line-text-box {
+  display: flex;
+  width: 86.11%;
+  height: 13.56%;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49.03px;
+  text-align: left;
+  align-items: flex-end;
+  color: rgba(42, 44, 61, 1)
+}
+
+.container__second_line-one-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 43.22%
+}
+
+.container__second_line-two-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 43.22%
+}
+
+.container__second_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20.07%;
+  height: 68.62%;
+  box-shadow: 2px 6px 24px 0px rgba(42, 44, 61, 0.16);
+  background: rgba(255, 255, 255, 1)
+}
+
+.container__second_box-svg {
+  display: flex;
+  align-self: center;
+  width: 16.61%;
+  height: 27.91%
+}
+
+.container__second_box-img {
+  align-self: flex-end;
+  width: 100%;
+  height: 66.67%;
+  color: 2px solid #2f6b4f;
+}
+
+.container__second_box-middle-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 22.09%;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32.68px;
+  text-align: center;
+  color: #000000;
+}
+
+.container__second_box-lower-text {
+  display: flex;
+  align-items: center;
+  width: 83.39%;
+  height: 50%;
+  opacity: 71%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #2a2c3d
+}
+
+.container__third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 20.83%;
+  background: #2f6b4f
+}
+
+.container__third_first-empty-box {
+  width: 100%;
+  height: 14.11%
+}
+
+.container__third_main {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 55.29%
+}
+
+.container__third_main_button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 44.68%
+}
+
+.container__third_main_button-value {
+  width: 26.17%;
+  height: 69.52%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px
+}
+
+.container__third_main_text {
+  width: 100%;
+  height: 55.32%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65.37px;
+  text-align: center
+}
+
+.container__third_last-empty-box {
+  width: 100%;
+  height: 30.58%
+}
